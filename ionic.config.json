@@ -1,0 +1,7 @@
+{
+  "name": "telegram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
