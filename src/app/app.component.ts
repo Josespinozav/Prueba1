@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AprenderSobreTelegramPage } from './aprender-sobre-telegram/aprender-sobre-telegram.page';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -6,13 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Mensajes Guardados', url: '/folder/Bookmarke', icon: 'bookmark' },
-    { title: 'Chats Archivados', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Contactos', url: '/folder/People', icon: 'people' },
-    { title: 'Ajustes', url: '/folder/Cog', icon: 'cog' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Nuevo grupo', url: '/folder/nuevo-grupo', icon: 'people' },
+    { title: 'Contactos', url: '/folder/contactos', icon: 'person' },
+    { title: 'Llamadas', url: '/folder/llamadas', icon: 'people' },
+    { title: 'Personas cerca', url: '/folder/personas-cerca', icon: 'people-circle' },
+    { title: 'Mensajes guardados', url: '/folder/mensajes-guardados', icon: 'bookmark' },
+    { title: 'Ajustes', url: '/folder/ajustes', icon: 'cog' },
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  public labels = ['Agregar contactos', 'Aprende sobre Telegram'];
   constructor() {}
 }
